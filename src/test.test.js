@@ -9,3 +9,8 @@ test('assigning to object', () => {
   obj['two'] = 3;
   expect(obj).toEqual({ one: 2, two: 3 });
 });
+
+test('adding floating numbers', () => {
+  const value = 0.1 + 0.2;
+  expect(value).toEqual(0.3);
+});
