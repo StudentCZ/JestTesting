@@ -12,5 +12,5 @@ test('assigning to object', () => {
 
 test('adding floating numbers', () => {
   const value = 0.1 + 0.2;
-  expect(value).toEqual(0.3);
+  expect(value).toBeCloseTo(0.3);
 });
