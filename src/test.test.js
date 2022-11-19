@@ -38,3 +38,5 @@ test('compiling code to go as expected', () => {
   expect(() => compileAndroidCode()).toThrow();
   expect(() => compileAndroidCode()).toThrow(Error);
 });
+
+test();
