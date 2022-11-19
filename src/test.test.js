@@ -27,4 +27,5 @@ const shoppingList = [
 
 test('the shopping list contain item', () => {
   expect(shoppingList).toContain('soda');
+  expect(new Set(shoppingList)).toContain('milk');
 });
