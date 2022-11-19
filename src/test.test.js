@@ -29,3 +29,11 @@ test('the shopping list contain item', () => {
   expect(shoppingList).toContain('soda');
   expect(new Set(shoppingList)).toContain('milk');
 });
+
+function compileAndroidCode() {
+  throw new Error('you are not right');
+}
+
+test('compiling code to go as expected', () => {
+  expect(() => compileAndroidCode()).toThrow();
+});
