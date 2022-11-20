@@ -39,4 +39,7 @@ test('compiling code to go as expected', () => {
   expect(() => compileAndroidCode()).toThrow(Error);
 });
 
-test();
+test('the data is peanut butter', async () => {
+  const data = await fetchData();
+  expect(data).toBe('peanut butter');
+});
