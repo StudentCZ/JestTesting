@@ -64,3 +64,5 @@ afterEach(() => {
 test('sum is working', () => {
   expect(sum).toBeTruthy();
 });
+
+//Scoping
