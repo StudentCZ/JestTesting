@@ -54,11 +54,11 @@ test('compiling code to go as expected', () => {
 // });
 
 beforeEach(() => {
-  sum();
+  return sum();
 });
 
 afterEach(() => {
-  sum();
+  return sum();
 });
 
 test('sum is working', () => {
