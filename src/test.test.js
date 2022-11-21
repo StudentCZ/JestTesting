@@ -52,3 +52,11 @@ test('compiling code to go as expected', () => {
 //     expect(e).toMatch('error');
 //   }
 // });
+
+beforeEach(() => {
+  sum();
+});
+
+afterEach(() => {
+  sum();
+});
