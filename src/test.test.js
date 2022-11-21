@@ -60,3 +60,7 @@ beforeEach(() => {
 afterEach(() => {
   sum();
 });
+
+test('sum is working', () => {
+  expect(sum).toBeTruthy();
+});
