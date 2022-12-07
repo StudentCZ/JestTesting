@@ -66,3 +66,7 @@ test('sum is working', () => {
 });
 
 //Scoping
+
+beforeEach(() => {
+  return iniializeCityDatabase();
+});
